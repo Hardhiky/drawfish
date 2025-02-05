@@ -199,7 +199,7 @@ function App() {
 	  <h1 style={{ fontSize: "50px",textAlign: "center", marginBottom: "10px" }}>Drawfish</h1>
 	  <div style={{ display: "flex", flexDirection: "row", alignItems: "center", marginRight: "50px"  }}>
            
-        <div style={{ marginBottom: "20px" }} style={{width:"70%",paddingTop:"50px"}}>
+        <div style={{width:"70%",paddingTop:"50px"}}>
 	  <center>
 	            <Chessboard
             position={gameFen}
@@ -211,7 +211,7 @@ function App() {
                boxShadow: "0 3px 10px rgba(0, 0, 0, 0.3)",
             }}
           />
-	          <button onClick={resetGame} disabled={isLoading} style={{ margin: "30px 0px", fontSize: "14px" , background:"black",border:"none", color:"white",fontSize:"20px", padding:"10px 20px"}}>
+	          <button onClick={resetGame} disabled={isLoading} style={{ margin: "30px 0px", background:"black",border:"none", color:"white",fontSize:"20px", padding:"10px 20px"}}>
           Reset Game
         </button>
 	  </center>
